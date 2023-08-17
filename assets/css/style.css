@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic content styles */
+    color: darkgrey;
+}
+
 /* Header */
 header {
     background-color: green;
@@ -13,6 +22,9 @@ header {
 /* Main content */
 main {
     background-color: lightblue;
+
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
