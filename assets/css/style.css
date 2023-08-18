@@ -161,8 +161,13 @@ footer {
         /* Push main content down to accomodate larger header */
         margin-top: 110px;
     }
+}
 
-
-    
+/* Larger devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Line appears under item */
+    #menu a:hover {
+        border-bottom: 1px solid white;
+    }
 
 }
