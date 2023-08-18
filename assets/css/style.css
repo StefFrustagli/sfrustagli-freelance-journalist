@@ -52,6 +52,21 @@ h1 div {
     font-weight: 200;
 }
 
+#menu {
+    color: white;
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
 /* Main content */
 main {
   background-color: white;
