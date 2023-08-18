@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,400;1,500&display=swap');
+
 /* Asterisk wildcard selector to override defauls styles added to the browser */
 * {
     padding: 0;
