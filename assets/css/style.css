@@ -20,15 +20,20 @@ body {
 
 /* Header */
 header {
-  background-color: green;
+  background-color: #098d45;
+
   /* Padding to prevent test from sticking to the side of the screen */
   padding: 0 1rem;
+
   /* Nav bar to scroll along */
   position: fixed;
+
   /* High z-index value to make sure header is layered on top of any other elements */
   z-index: 99;
+
   /* Width to fill the screen */
   width: 100%;
+  
   /* Box-shadow to make the header stand out */
   box-shadow: 0 2px 2px lightgrey;
 
@@ -65,6 +70,19 @@ h1 div {
 
 .active {
     border-bottom: 1px solid white;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #098d45;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px lightgrey;
+
+    /* Nav bar items hidden until user clicks */
+    display: none;
 }
 
 /* Main content */
