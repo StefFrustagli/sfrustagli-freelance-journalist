@@ -148,4 +148,21 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 200%;
+        line-height: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main{
+        /* Push main content down to accomodate larger header */
+        margin-top: 110px;
+    }
+
+
+    
+
 }
