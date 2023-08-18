@@ -18,6 +18,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+    font-family: 'Nobile', sans-serif;
+}
+
 /* Header */
 header {
     background-color: green;
