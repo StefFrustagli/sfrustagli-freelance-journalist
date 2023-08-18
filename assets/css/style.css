@@ -119,3 +119,33 @@ main {
 footer {
   background-color: orange;
 }
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        /* No longer takes up all of the space in the header */
+        width: fit-content;
+        /* Menu items doesn't stick to the edge of the screen */
+        padding-right: 1rem;
+
+    }
+    
+    #menu {
+        /* links in a row */
+        display:flex;    
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+    
+    .nav-toggle-label {
+        /* Hide toggle-label */
+        display: none;
+    }
+
+}
