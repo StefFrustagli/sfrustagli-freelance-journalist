@@ -33,9 +33,14 @@ header {
 
   /* Width to fill the screen */
   width: 100%;
-  
+
   /* Box-shadow to make the header stand out */
   box-shadow: 0 2px 2px lightgrey;
+
+  /* Checkbox in the top right corner */
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 
 }
 
@@ -83,14 +88,31 @@ nav {
 
     /* Nav bar items hidden until user clicks */
     display: none;
+
+    /* Top of the element starts at the bottom of its parent */
+    top:100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
 main {
   background-color: white;
-
-  /* Make main element take up any surplus space to push footer down */
+ /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
+  /* Margin added to put content down */
+  margin-top: 148px;
 }
 
 /* Footer */
