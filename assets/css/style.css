@@ -108,11 +108,17 @@ nav {
 
 /* Main content */
 main {
-  background-color: white;
  /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   /* Margin added to put content down */
   margin-top: 148px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
