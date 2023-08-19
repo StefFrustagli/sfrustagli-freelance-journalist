@@ -116,7 +116,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 700px;
+    height: 800px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
@@ -126,7 +126,7 @@ main {
 #writings {
     width: 90%;
     margin: 20px auto;
-    color: #darkgrey;
+    color: #92908e;
 }
 
 #writings h2 {
@@ -134,8 +134,8 @@ main {
 }
 
 #writings h3 {
-    text-decoration: none;
     color: #048363;
+    font-weight: 400;
 }
 
 #writings div {
@@ -143,8 +143,19 @@ main {
     margin-bottom: 20px;
 }
 
+.article-link {
+    text-decoration: none;
+    color: #048363;
+}
+
+.publication {
+    color: #626360;
+    font-weight: 300;
+}
+
 #writings p {
     padding: 0 20px;
+    line-height: 1.6;
 }
 
 /* Footer */
