@@ -54,7 +54,7 @@ h1 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
+    color:#ffffff;
 }
 
 h1 div {
@@ -63,7 +63,7 @@ h1 div {
 }
 
 #menu {
-    color: white;
+    color: #ffffff;
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
@@ -74,7 +74,7 @@ h1 div {
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -116,9 +116,24 @@ main {
 }
 
 /* Footer */
+
 footer {
   background-color: #098d45;
 }
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+} 
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -167,7 +182,7 @@ footer {
 @media screen and (min-width: 992px) {
     /* Line appears under item */
     #menu a:hover {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid #ffffff;
     }
 
 }
