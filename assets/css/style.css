@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-  background-color: #098d45;
+  background-color: #048363;
 
   /* Padding to prevent test from sticking to the side of the screen */
   padding: 0 1rem;
@@ -80,7 +80,7 @@ h1 div {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #098d45;
+    background-color: #048363;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -118,7 +118,7 @@ main {
 /* Footer */
 
 footer {
-  background-color: #098d45;
+  background-color: #048363;
 }
 
 #social-networks {
