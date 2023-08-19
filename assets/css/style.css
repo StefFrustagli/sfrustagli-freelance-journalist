@@ -116,9 +116,35 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
+/* Selected writings section */
+
+#writings {
+    width: 90%;
+    margin: 20px auto;
+    color: #darkgrey;
+}
+
+#writings h2 {
+    display: none;
+}
+
+#writings h3 {
+    text-decoration: none;
+    color: #048363;
+}
+
+#writings div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#writings p {
+    padding: 0 20px;
 }
 
 /* Footer */
@@ -186,7 +212,7 @@ footer {
 
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    /* Line appears under item */
+    /* Line appears under nav item */
     #menu a:hover {
         border-bottom: 1px solid #ffffff;
     }
