@@ -143,6 +143,11 @@ main {
     margin-bottom: 20px;
 }
 
+#writings p {
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
 .article-link {
     text-decoration: none;
     color: #048363;
@@ -153,9 +158,9 @@ main {
     font-weight: 300;
 }
 
-#writings p {
-    padding: 0 20px;
-    line-height: 1.6;
+.horizontal-rule {
+    border-top: 1px solid lightgrey;
+    margin: 5px 0;
 }
 
 /* Footer */
