@@ -123,6 +123,25 @@ main {
 
 /* Selected writings section */
 
+.article-link {
+    text-decoration: none;
+    color: #048363;
+}
+
+.publication {
+    color: #626360;
+    font-weight: 300;
+}
+
+.horizontal-rule {
+    border-top: 1px solid lightgrey;
+    margin: 5px 0;
+}
+   /* Mouse over link */
+a:hover {
+    color: #591801;
+}
+
 #writings {
     width: 90%;
     margin: 20px auto;
@@ -146,21 +165,6 @@ main {
 #writings p {
     padding: 0 20px;
     line-height: 1.6;
-}
-
-.article-link {
-    text-decoration: none;
-    color: #048363;
-}
-
-.publication {
-    color: #626360;
-    font-weight: 300;
-}
-
-.horizontal-rule {
-    border-top: 1px solid lightgrey;
-    margin: 5px 0;
 }
 
 /* Footer */
