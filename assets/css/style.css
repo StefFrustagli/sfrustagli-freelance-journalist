@@ -168,12 +168,41 @@ a:hover {
 }
 
 /* About page */
+strong {
+    font-size:large;
+    color: #048363;
+    text-transform: uppercase;
+
+}
+.about {
+    color: #048363;
+    font-weight: 500;
+    justify-content: center;
+}
+
 #about {
-    padding: 0 20px;
+    padding: 10px 20px;
     line-height: 1.6;
     width: 90%;
     margin: 20px auto;
-    color: #92908e;
+    color: #8f8c8d;
+}
+
+#circle-cover-bg {
+    background: url('../images/about-image.webp') no-repeat top center / cover;
+    height: 80vw;
+    width: 80vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* Makes image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
