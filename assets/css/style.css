@@ -167,6 +167,15 @@ a:hover {
     line-height: 1.6;
 }
 
+/* About page */
+#about {
+    padding: 0 20px;
+    line-height: 1.6;
+    width: 90%;
+    margin: 20px auto;
+    color: #92908e;
+}
+
 /* Footer */
 
 footer {
