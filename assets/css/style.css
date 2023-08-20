@@ -251,6 +251,7 @@ footer {
     #menu {
         /* links in a row */
         display:flex;    
+        padding: 2px;
     }
 
     #menu > li {
@@ -273,7 +274,7 @@ footer {
     /* Main content */
     main{
         /* Push main content down to accomodate larger header */
-        margin-top: 110px;
+        margin-top: 140px;
     }
 }
 
