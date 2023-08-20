@@ -62,6 +62,10 @@ h1 div {
     font-weight: 200;
 }
 
+#logo {
+    height:150px;
+}
+
 #menu {
     color: #ffffff;
     font-size: 110%;
@@ -172,7 +176,6 @@ strong {
     font-size:large;
     color: #048363;
     text-transform: uppercase;
-
 }
 
 .relevant {
