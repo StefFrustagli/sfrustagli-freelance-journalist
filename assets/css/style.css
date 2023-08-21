@@ -216,6 +216,13 @@ strong {
     justify-content: center;
 }
 
+/* Contact page */
+#contact {
+    margin: 20px;
+}
+
+
+
 /* Footer */
 
 footer {
@@ -311,7 +318,7 @@ footer {
 
 }
 
-/* Larger devices (desktops 1200px and wider) */
+/* Larger devices (desktops and screens, 1200px and wider) */
 @media screen and (min-width: 1200px) {
     /* About section */
     #about {
