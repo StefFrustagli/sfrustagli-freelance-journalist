@@ -18,6 +18,10 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #048363;
@@ -116,6 +120,10 @@ main {
     flex: 1 0 auto;
     /* Margin added to put content down */
     margin-top: 148px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* Hero section */
@@ -151,10 +159,6 @@ a:hover {
     width: 90%;
     margin: 20px auto;
     color: #92908e;
-}
-
-#writings h2 {
-    display: none;
 }
 
 #writings h3 {
@@ -217,9 +221,36 @@ strong {
 }
 
 /* Contact page */
+
 #contact {
-    margin: 20px;
+    margin: 15px;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 15px;
+    text-align: center;
 }
+
+
+#submit-message {
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 10px 12px;
+    font-size: 100%;
+    background-color: #048363;
+    color: #fafafa;
+}
+
+#contact-text>h2,
+span {
+    color: #048363;
+    font-weight: 500;
+}
+
+#contact-text>p {
+    color: #575855;
+    line-height: 1.7;
+}
+
 
 
 
@@ -320,13 +351,14 @@ footer {
 
 /* Larger devices (desktops and screens, 1200px and wider) */
 @media screen and (min-width: 1200px) {
+
     /* About section */
     #about {
         display: flex;
         flex-direction: column;
     }
 
-    #about > div {
+    #about>div {
         flex: 1;
     }
 

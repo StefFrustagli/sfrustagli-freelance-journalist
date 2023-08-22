@@ -56,26 +56,40 @@
     <!-- Main content -->
     <main>
         <section id="contact">
+            <div id="contact-text">
+             <h1 class="hidden-heading"> Contact</h1>
+             <h2>Let's create something beautiful!</h2>
+             <br>
+             <p>I would be happy to work with you on a commission or a collaborative project. You can contact me via the form below
+                or by email at:
+             </p>
+             <br>
+             <span> stefania.frustagli@outlook.it </span>    
+            </div>
+
+            <br>
+            <!-- Contact form -->
             <form id="contact-form" method="post" action="https://formdump.codeinstitute.net/">
-                <h2>Let's create something beautiful!</h2>
-                <p>I would be happy to work with you on a commission or a collaborative project. You can contact me via the form below or by
-                email at:
-                 <br>
-                 <span> stefania.frustagli@outlook.it </span>
-                <br></p>
+                <div>
                 <label for="full_name">Full name: </label>
                 <input type="text" name="full_name" id="full_name" class="text-input" required>
-                  <br>
-                <label for="email_address">Email Address: </label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
-                  <br>
-                <label for="message"></label>
-                <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+                </div> 
                 <br>
-        
-                <input type="submit" value="Send" class="text-input">
+                <div>
+                <label for="email_address">Email address: </label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                </div>  
+                <br>
+                <div>
+                <label for="message"></label>
+                <textarea id="message" name="message" class="text-input" placeholder="Type here your message" ></textarea>
+                </div>
+                <br> 
+               <div><input type="submit" value="Send" id="submit-message">
 
-               </form>
+               </div>
+
+            </form>
 
 
         </section>
