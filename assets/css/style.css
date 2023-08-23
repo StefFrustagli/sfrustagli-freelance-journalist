@@ -221,7 +221,7 @@ strong {
 /* Contact page */
 
 .text-input {
-    width: 75%;
+    width: 80%;
 }
 
 #message {
@@ -251,14 +251,16 @@ span {
   font-weight: 500;
 }
 
-#contact-text > p {
+#contact-text > p,
+#contact-form {
   color: #575855;
   line-height: 1.7;
 }
 
-/* Center placeholder text */
 ::-webkit-input-placeholder {
+    /* Center placeholder text */
     text-align: center;
+    color: #92908e;
 }
 
 /* Footer */
@@ -341,6 +343,28 @@ footer {
         align-self: flex-end;
     }
     */
+
+    /* Form */
+
+    .text-input {
+        margin: 5px;
+    }
+   #contact {
+    margin-top: 40px;
+   }
+   #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #contact-form > div {
+    width: 50%;
+   }
+
+   
+   
+
+
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
