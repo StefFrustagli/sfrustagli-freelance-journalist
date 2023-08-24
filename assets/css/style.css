@@ -124,6 +124,13 @@ main {
   flex-direction: column;
 }
 
+.selected-writings {
+    font-family: inherit;
+    font-weight: 300;
+    color: #575855;
+    text-transform: uppercase;
+}
+
 /* Hero section */
 #hero {
   height: 800px;
@@ -304,6 +311,7 @@ footer {
 
   #menu > li {
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .nav-toggle-label {
