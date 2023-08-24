@@ -325,25 +325,6 @@ footer {
     margin-top: 140px;
   }
 
-  /* About section style
-    #about-one,
-    #about-two {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #about-one > p,
-    #about-two > p {
-        width: 75%;
-    }
-
-    #about-two > p {
-        text-align: end;
-        align-self: flex-end;
-    }
-    */
-
     /* Form */
 
     .text-input {
