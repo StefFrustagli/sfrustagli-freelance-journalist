@@ -16,6 +16,8 @@ body {
   /* Generic content styles */
   color: darkgrey;
   font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
 .hidden-heading {
@@ -201,10 +203,11 @@ strong {
 
 #about {
   padding: 10px 20px;
-  line-height: 1.6;
+  line-height: 1.8;
   width: 90%;
   margin: 20px auto;
   color: #8f8c8d;
+  font-size: larger;
 }
 
 #circle-cover-bg {
@@ -223,6 +226,10 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#about > h1 {
+    color: #8f8c8d;
 }
 
 /* Contact page */
