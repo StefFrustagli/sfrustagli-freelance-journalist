@@ -16,6 +16,7 @@ body {
   /* Generic content styles */
   color: darkgrey;
   font-family: "Raleway", sans-serif;
+  /* Improve readability */
   font-size: 1.1rem;
   line-height: 2rem;
 }
@@ -195,19 +196,23 @@ strong {
   font-weight: 900;
 }
 
-.about {
-  color: #048363;
-  font-weight: 500;
-  justify-content: center;
-}
-
 #about {
+  text-align: center;
+  max-width: 1000px;
   padding: 10px 20px;
-  line-height: 1.8;
-  width: 90%;
+  line-height: 2rem;
+  /* width: 90%; */
+  /* No sure why if I remove this, the content won't stay centered */
   margin: 20px auto;
+  /*margin-top: 60px;*/
   color: #8f8c8d;
   font-size: larger;
+}
+
+#about p {
+    margin-top: 14px;
+    font-size: 1.1rem;
+    text-align: justify;
 }
 
 #circle-cover-bg {
