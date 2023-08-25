@@ -240,6 +240,7 @@ strong {
     /*margin-top: 60px;*/
     color: #8f8c8d;
     font-size: larger;
+    margin-bottom: 130px;
 }
 
 #about p {
@@ -286,6 +287,7 @@ strong {
     flex-grow: 1;
     padding: 15px;
     text-align: center;
+    margin-bottom: 130px;
 }
 
 #submit-message {
