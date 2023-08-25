@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    position: relative;
+}
+
 /* General styles */
 body {
     min-height: 100vh;
@@ -19,6 +23,10 @@ body {
     /* Improve readability */
     font-size: 1.1rem;
     line-height: 2rem;
+    /* Make big screens responsive */
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hidden-heading {
@@ -28,26 +36,24 @@ body {
 /* Header */
 header {
     background-color: #048363;
-
     /* Padding to prevent test from sticking to the side of the screen */
     padding: 0 1rem;
-
     /* Nav bar to scroll along */
     position: fixed;
-
     /* High z-index value to make sure header is layered on top of any other elements */
     z-index: 99;
-
     /* Width to fill the screen */
     width: 100%;
-
-    /* Box-shadow to make the header stand out */
-    box-shadow: 0 2px 2px lightgrey;
+    left: 0;
+    top: 0;
 
     /* Checkbox in the top right corner */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
+    /* Box-shadow to make the header stand out */
+    box-shadow: 0 2px 2px lightgrey;
 }
 
 header a {
@@ -61,11 +67,23 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ffffff;
+
 }
 
 h1 div {
     text-transform: lowercase;
     font-weight: 200;
+}
+
+#header-wrapper {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logo {
@@ -121,24 +139,29 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* Margin added to put content down */
-    margin-top: 148px;
+    margin-top: 140px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 
-.selected-writings {
-    font-family: inherit;
-    font-weight: 300;
-    color: #575855;
-    text-transform: uppercase;
-}
-
 /* Hero section */
 #hero {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 150px;
+    background: #008465;
+
+}
+
+#hero-image {
     height: 800px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Selected writings section */
@@ -158,6 +181,13 @@ main {
     margin: 5px 0;
 }
 
+.selected-writings {
+    font-family: inherit;
+    font-weight: 300;
+    color: #575855;
+    text-transform: uppercase;
+}
+
 /* Mouse over link */
 a:hover {
     color: #591801;
@@ -167,6 +197,9 @@ a:hover {
     width: 90%;
     margin: 20px auto;
     color: #92908e;
+    margin-top: 850px;
+    max-width: 1200px;
+    margin-bottom: 76px;
 }
 
 #writings h3 {
@@ -196,10 +229,9 @@ strong {
     font-weight: 900;
 }
 
-
 #about {
     text-align: center;
-    /*max-width: 1000px;*/
+    max-width: 1200px;
     padding: 10px 20px;
     /* To avoid overflow */
     width: 90%;
@@ -285,15 +317,28 @@ span {
 
 /* Footer */
 
-footer {
+#footer-section {
     background-color: #048363;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 #social-networks {
+    padding: 0 1rem;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
+    /* On mobile devices, icons don't stick to the margins */
+    justify-content: space-around;
     list-style-type: none;
 }
 
@@ -366,7 +411,6 @@ footer {
     #contact-form>div {
         width: 50%;
     }
-
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
