@@ -281,9 +281,7 @@ strong {
     width: 80%;
 }
 
-#message {
-    height: 50%;
-}
+
 
 #contact {
     margin: 15px;
@@ -295,7 +293,7 @@ strong {
 }
 
 #submit-message {
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 2px;
     padding: 10px 12px;
     font-size: 100%;
@@ -313,6 +311,20 @@ span {
 #contact-form {
     color: #575855;
     line-height: 1.7;
+}
+
+/* Textarea */
+
+input, textarea {
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 5px 8px;
+    height: 40px;
+    max-width: 500px;
+}
+
+#textarea {
+    height: 200px;
 }
 
 ::-webkit-input-placeholder {
@@ -446,17 +458,5 @@ span {
 
     #about>div {
         flex: 1;
-    }
-
-    #about-one {
-        order: 0;
-    }
-
-    #about-two {
-        order: 1;
-    }
-
-    #about-image {
-        order: 2;
     }
 }
