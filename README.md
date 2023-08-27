@@ -50,8 +50,8 @@ The primary goal was to provide a showcase of my work to editor. Considering the
 The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
 
 ### Hero image
-![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
 The hero image is an illustration I personally commissioned from artist Valeria Weerasinge.
+![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
 
 It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
 
