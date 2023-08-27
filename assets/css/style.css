@@ -68,7 +68,6 @@ h1 {
     letter-spacing: 2px;
     color: #ffffff;
     padding-top: 13px;
-
 }
 
 h1 div {
@@ -77,7 +76,6 @@ h1 div {
 }
 
 #header-wrapper {
-    padding: 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -100,6 +98,7 @@ h1 div {
 
 #menu>li {
     margin-bottom: 1em;
+    padding-left: 16px;
 }
 
 .active {
@@ -114,10 +113,8 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px lightgrey;
-
     /* Nav bar items hidden until user clicks */
     display: none;
-
     /* Top of the element starts at the bottom of its parent */
     top: 100%;
 }
@@ -153,7 +150,6 @@ main {
     left: 0;
     top: 150px;
     background: #008465;
-
 }
 
 #hero-image {
@@ -189,7 +185,6 @@ main {
     color: #575855;
     text-transform: uppercase;
     padding-bottom: 10px;
-    
 }
 
 /* Mouse over link */
@@ -281,8 +276,6 @@ strong {
     width: 80%;
 }
 
-
-
 #contact {
     margin: 15px;
     background-position: 75%;
@@ -315,7 +308,8 @@ span {
 
 /* Textarea */
 
-input, textarea {
+input,
+textarea {
     font-size: 1.1rem;
     font-family: inherit;
     padding: 5px 8px;
@@ -445,7 +439,7 @@ input, textarea {
 @media screen and (min-width: 1200px) {
 
     /* Selected writings section */
-    #writings{
+    #writings {
         line-height: 1.7;
         font-size: 20px;
     }
