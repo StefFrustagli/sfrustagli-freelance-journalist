@@ -36,3 +36,39 @@ The primary goal was to provide a showcase of my work to editor. Considering the
 ![Colour palette](https://i.ibb.co/GnDPVh0/Colour-palette.png "Colour palette")
 
 The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
+
+### Hero image
+![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
+The hero image is an illustration I personally commissioned from artist Valeria Weerasinge.
+
+It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
+
+### Favicon
+The favicon was created using [Favicon Generator](https://favicon.io/favicon-generator/)
+
+I chose a simple round green button with a white lowercase 's', my first name's initial. Despite considering both my initials, I chose my first initial because of its size and shape. 
+Below is the favicon as it appears in the tab:
+
+![Round green button with a white lowercase 's' as appears in the tab](https://i.ibb.co/khTn7LH/Screenshot-2023-08-27-at-21-02-24.png "Favicon")
+
+
+
+
+
+## Credits
+
+### Content
+
+* Stefania Frustagli wrote the entire website content.
+
+* The hero image illustration was created by artist [Valeria Weerasinghe](https://www.valeriaweerasinghe.com/) and commissioned by me. Please do not reproduce without any expressed written consent.
+
+* The "About" page photograph belongs to Stefania Frustagli.
+
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+### Code
+As this has been my first website, it's been a challenging experience, and I've largely followed Code Institute's Love Running walkthrough to get started.
+
+### Acknowledgment
+For their continuous support and feedback, I am grateful to my mentor Brian Macharia, the Code Institute tutors, and my fellow classmates on Slack.
