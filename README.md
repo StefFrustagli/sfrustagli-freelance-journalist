@@ -31,6 +31,18 @@ My intention was to design a simple and minimalistic website, with essential inf
 
 The primary goal was to provide a showcase of my work to editor. Considering their busy schedules, I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette to make the page visually appealing.
 
+### I can achieve my goal most effectively through this website because:
+
+* It groups and shows my work in one page;
+
+* It's essential and easy to navigate;
+
+* It lists my contact information;
+  
+* It features a distinctive llustration to attract viewers' attention.
+
+## Graphic Design
+
 ### Palette
 
 ![Colour palette](https://i.ibb.co/GnDPVh0/Colour-palette.png "Colour palette")
