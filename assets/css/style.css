@@ -361,11 +361,11 @@ textarea {
     color: #ffffff;
 }
 
-/* Media query for mobile devices (320px — 480px) */
+/* Media query for mobile devices (small screens: 320px — 480px) */
 @media screen and (max-width: 480px){
-    /* To make sure that image is not too large on mobile devices */
-    main {flex: 1 0 auto;
-        margin-top: -150px;
+    /* To make sure that image is not too large on mobile devices and writings fit behind*/
+    #writings{flex: 1 0 auto;
+        margin-top: 560px; 
     }   
     #hero-image {
         margin-top: -70px;
