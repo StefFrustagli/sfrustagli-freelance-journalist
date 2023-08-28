@@ -197,10 +197,12 @@ a:hover {
 
 #writings {
     width: 90%;
-    margin: 20px auto;
-    color: #92908e;
-    margin-top: 840px;
     max-width: 1200px;
+    color: #92908e;
+    /* content is centered and fits all devices */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 840px;
     margin-bottom: 100px;
 }
 
@@ -237,9 +239,8 @@ strong {
     padding: 10px 20px;
     /* To avoid overflow */
     width: 90%;
-    /* No sure why if I remove this, the content won't stay centered */
+    /* Center content */
     margin: 20px auto;
-    /*margin-top: 60px;*/
     color: #8f8c8d;
     font-size: larger;
     margin-bottom: 130px;
@@ -277,6 +278,7 @@ strong {
 
 .text-input {
     width: 80%;
+
 }
 
 #contact {
@@ -301,6 +303,7 @@ strong {
 span {
     color: #048363;
     font-weight: 500;
+    font-family: "Raleway", sans-serif;
 }
 
 #contact-text>p,
@@ -364,11 +367,14 @@ textarea {
 }
 
 /* Media query for mobile devices (small screens: 320px — 480px) */
-@media screen and (max-width: 480px){
-    /* To make sure that image is not too large on mobile devices and writings fit behind*/
-    #writings{flex: 1 0 auto;
-        margin-top: 560px; 
-    }   
+@media screen and (max-width: 480px) {
+
+    /* To make sure that image is not too large on mobile devices and writings fit below */
+    #writings {
+        flex: 1 0 auto;
+        margin-top: 560px;
+    }
+
     #hero-image {
         margin-top: -70px;
         height: 600px;
@@ -457,7 +463,7 @@ textarea {
 
     /* Selected writings section */
     #writings {
-        line-height: 1.7;
+        line-height: 1.8;
         font-size: 25px;
     }
 
