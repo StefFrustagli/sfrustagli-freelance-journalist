@@ -64,7 +64,23 @@ Below is the favicon as it appears in the tab:
 ![Round green button with a white lowercase 's' as appears in the tab](https://i.ibb.co/khTn7LH/Screenshot-2023-08-27-at-21-02-24.png "Favicon")
 
 
+## Deployment
+This project was developed using Codeanywhere, committed to git and pushed to GitHub.
+It was deployed directly from the master branch to GitHub Pages using the following steps:
 
+1. In the GitHub repository, navigate to the **Settings** tab;
+
+2. From the "Code and automation" drop-down menu, select **Pages**.
+
+3. In GitHub pages, the **Source** selected should be Deploy from Branch, the **Branch** set to Main and **Folder** to / (root). Click '**Save**'.
+
+4. Navigate back to the **Code** tab. Wait a few minutes for the build to finish and **refresh your repo**.
+
+5. On the right-hand side, in the **Deployments** section, click 'github-pages'
+
+6. Click the **Arrow-up-right-from-square icon** to see the live site.
+
+The live link can be found here: https://steffrustagli.github.io/sfrustagli-freelance-journalist/
 
 
 ## Credits
