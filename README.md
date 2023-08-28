@@ -63,6 +63,17 @@ Below is the favicon as it appears in the tab:
 
 ![Round green button with a white lowercase 's' as appears in the tab](https://i.ibb.co/khTn7LH/Screenshot-2023-08-27-at-21-02-24.png "Favicon")
 
+## Features
+
+### Existing Features
+On each page, there is a header with a responsive **navigation bar** that includes my name as the logo (top left) that links to the homepage, and links to the 'About' and 'Contact' pages (top right).
+
+A link to 'Selected writings' was also intended, but I removed it after my mentor's suggestion mainly for aesthetic reasons. It might be re-added in the future if I feel it makes the navigation bar more intuitive. As for now, I think viewers - editors in particular - will find their way around the website easily as the navbar is intuitive enough.
+
+![Header and navbar](https://i.ibb.co/crHK2fX/Screenshot-2023-08-28-at-16-38-32.png "Header and navbar")
+
+
+
 
 ## Technologies used
 Programming languages used in this project are HTML and CSS.
