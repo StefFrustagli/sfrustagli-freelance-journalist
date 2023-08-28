@@ -1,4 +1,4 @@
-# Stefania Frustagli, freelance journalist portfolio
+# Stefania Frustagli, Freelance Journalist Portfolio
 
 This is a portfolio website for my work as a freelance journalist.
 
@@ -64,6 +64,10 @@ Below is the favicon as it appears in the tab:
 ![Round green button with a white lowercase 's' as appears in the tab](https://i.ibb.co/khTn7LH/Screenshot-2023-08-27-at-21-02-24.png "Favicon")
 
 
+## Technologies used
+Programming languages used in this project are HTML and CSS.
+
+
 ## Deployment
 This project was developed using Codeanywhere, committed to git and pushed to GitHub.
 It was deployed directly from the master branch to GitHub Pages using the following steps:
@@ -84,9 +88,7 @@ The live link can be found here: https://steffrustagli.github.io/sfrustagli-free
 
 
 ## Credits
-
 ### Content
-
 * Stefania Frustagli wrote the entire website content.
 
 * The hero image illustration was created by artist [Valeria Weerasinghe](https://www.valeriaweerasinghe.com/) and commissioned by me. Please do not reproduce without any expressed written consent.
@@ -96,7 +98,7 @@ The live link can be found here: https://steffrustagli.github.io/sfrustagli-free
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Code
-As this has been my first website, it's been a challenging experience, and I've largely followed Code Institute's Love Running walkthrough to get started.
+As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. For helping me code larger screen responsiveness, I would like to thank my mentor Brian Macharia.
 
 ### Acknowledgment
-For their continuous support and feedback, I am grateful to my mentor Brian Macharia, the Code Institute tutors, and my fellow classmates on Slack.
+For their continuous support, suggestions and feedback, I am very grateful to my mentor Brian Macharia, the Code Institute tutors, and my fellow classmates on Slack.
