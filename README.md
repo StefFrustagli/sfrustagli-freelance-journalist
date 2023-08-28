@@ -49,12 +49,6 @@ The primary goal was to provide a showcase of my work to editor. Considering the
 
 The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
 
-### Hero image
-The hero image is an illustration I personally commissioned from artist Valeria Weerasinge.
-![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
-
-It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
-
 ### Favicon
 The favicon was created using [Favicon Generator](https://favicon.io/favicon-generator/)
 
@@ -72,7 +66,22 @@ A link to 'Selected writings' was also intended, but I removed it after my mento
 
 ![Header and navbar](https://i.ibb.co/crHK2fX/Screenshot-2023-08-28-at-16-38-32.png "Header and navbar")
 
+#### Homepage
 
+The homepage features a hero image.
+
+##### Hero image
+The hero image is an illustration I personally commissioned to artist Valeria Weerasinge.
+![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
+
+It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
+
+The main purpose of the hero image is to grab attention with its size, colour, and distinctiveness. I wanted it to be appealing and unique since it is the first thing the user sees when arriving at the website.
+
+##### Selected writings
+Some of my articles are listed in the Selected writings section on the homepage. They are listed in chronological order (the most recent at the top) and a small preview is displayed to catch the eye. At the end of the preview, there is a clickable ">>" in green that changes color if hovered over. Each link opens in a new tab.
+
+![Selected wrirings](https://i.ibb.co/p24XWzS/Screenshot-2023-08-28-at-17-06-05.png "List of articles")
 
 
 ## Technologies used

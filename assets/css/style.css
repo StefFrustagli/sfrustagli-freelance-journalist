@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* To make hero image to go edge to edge */
 html {
     position: relative;
 }
@@ -97,7 +98,6 @@ h1 div {
 }
 
 #menu>li {
-    /*margin-bottom: 1em;*/
     padding-left: 16px;
 }
 
@@ -137,7 +137,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* Margin added to put content down */
+    /* Margin added to put content down in small screens */
     margin-top: 140px;
     /* Enable flex properties for child elements */
     display: flex;
@@ -199,7 +199,7 @@ a:hover {
     width: 90%;
     max-width: 1200px;
     color: #92908e;
-    /* content is centered and fits all devices */
+    /* content is centered and fits in all devices */
     margin-left: auto;
     margin-right: auto;
     margin-top: 840px;
