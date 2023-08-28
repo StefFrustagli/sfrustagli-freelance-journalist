@@ -41,7 +41,7 @@ The primary goal was to provide a showcase of my work to editor. Considering the
   
 * It features a distinctive llustration to attract viewers' attention.
 
-## Graphic Design
+## Design
 
 ### Palette
 
@@ -62,9 +62,13 @@ Below is the favicon as it appears in the tab:
 ### Existing Features
 On each page, there is a header with a responsive **navigation bar** that includes my name as the logo (top left) that links to the homepage, and links to the 'About' and 'Contact' pages (top right).
 
-A link to 'Selected writings' was also intended, but I removed it after my mentor's suggestion mainly for aesthetic reasons. It might be re-added in the future if I feel it makes the navigation bar more intuitive. As for now, I think viewers - editors in particular - will find their way around the website easily as the navbar is intuitive enough.
+A link to 'Selected writings' was also intended, but it was removed after my mentor's suggestion, mainly for aesthetic and functional reasons. It might be re-added in the future if I feel it makes the navigation bar more intuitive. As for now, I think viewers - editors in particular - will find their way around the website easily as the navbar is intuitive and simple to use.
 
 ![Header and navbar](https://i.ibb.co/crHK2fX/Screenshot-2023-08-28-at-16-38-32.png "Header and navbar")
+
+All pages have a **footer** that links to my social media accounts (Instagram, Twitter/X and LinkedIn). Intuitive and immediate, it is ideal for editors and readers to quickly find me.
+
+![Footer showing links to my social media accounts: Instagram, Twitter/X and LinkedIn](https://i.ibb.co/z6zdnQT/Screenshot-2023-08-28-at-19-41-47.png "Footer showing links to my social media accounts: Instagram, Twitter/X and LinkedIn")
 
 #### Homepage
 
@@ -81,10 +85,14 @@ Some of my articles are listed in the Selected writings section on the homepage.
 
 ![Selected wrirings](https://i.ibb.co/p24XWzS/Screenshot-2023-08-28-at-17-06-05.png "List of articles")
 
-#### Footer
-All pages have a footer that links to my social media accounts (Instagram, Twitter/X and LinkedIn). Intuitive and immediate, it is ideal for editors and readers to quickly find me.
+#### About page
+The 'About' page provides a glimpse into my study path and experience. By reading this short bio, editors and viewers will get a sense of my personality and intentions as a journalist. I have also added a picture of myself to create a more "real" and approachable feel, as well as show my friendliness.
 
-![Footer showing links to social media accounts: Instagram, Twitter/X and LinkedIn](https://i.ibb.co/z6zdnQT/Screenshot-2023-08-28-at-19-41-47.png "Footer showing links to social media accounts: Instagram, Twitter/X and LinkedIn")
+![Contact page showing a short bio and a picture of myself](https://i.ibb.co/850mY3M/Screenshot-2023-08-28-at-20-14-26.png "Contact page")
+
+## Contact page
+The 'Contact' page offers two options for contacting me: via email address or by filling in the form.
+
 
 ## Technologies used
 Programming languages used in this project are HTML and CSS.
