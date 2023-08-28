@@ -160,6 +160,8 @@ main {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    /* Disable pointer events */
+    pointer-events: none;
 }
 
 /* Selected writings section */
