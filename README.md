@@ -29,7 +29,7 @@ The website's goals are:
 
 My intention was to design a simple and minimalistic website, with essential information easily accessible.
 
-The primary goal was to provide a showcase of my work to editor. Considering their busy schedules, I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette to make the page visually appealing.
+The primary goal was to provide a showcase of my work to editors. Considering their busy schedules, I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette to make the page visually appealing.
 
 ### I can achieve my goal most effectively through this website because:
 
@@ -37,7 +37,7 @@ The primary goal was to provide a showcase of my work to editor. Considering the
 
 * It's essential and easy to navigate;
 
-* It lists my contact information;
+* It lists my contact information and social media accounts;
   
 * It features a distinctive llustration to attract viewers' attention.
 
@@ -50,9 +50,9 @@ The primary goal was to provide a showcase of my work to editor. Considering the
 The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
 
 ### Favicon
-The favicon was created using [Favicon Generator](https://favicon.io/favicon-generator/)
+The favicon was created using [Favicon Generator](https://favicon.io/favicon-generator/).
 
-I chose a simple round green button with a white lowercase 's', my first name's initial. Despite considering both my initials, I chose my first initial because of its size and shape. 
+I chose a simple round green button with a white lowercase 's', my first name's initial. Despite considering both my initials, I chose my first initial because of its shape. 
 Below is the favicon as it appears in the tab:
 
 ![Round green button with a white lowercase 's' as appears in the tab](https://i.ibb.co/khTn7LH/Screenshot-2023-08-27-at-21-02-24.png "Favicon")

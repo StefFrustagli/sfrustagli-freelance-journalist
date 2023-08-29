@@ -71,9 +71,11 @@ h1 {
     padding-top: 13px;
 }
 
-h1 div {
+#sub-title {
     text-transform: lowercase;
     font-weight: 200;
+    word-wrap: break-word;
+    color: inherit;
 }
 
 #header-wrapper {
@@ -270,7 +272,7 @@ strong {
     justify-content: center;
 }
 
-#about>h1 {
+#about>h2 {
     color: #8f8c8d;
 }
 
