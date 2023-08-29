@@ -99,7 +99,7 @@ The 'Contact' page contains an invitation to contact me either by email address 
 ### Features and general aspects left to implement
 Due to the short deadline and my limited knowledge, my focus was creating a functional and essential website. However, I hope to accomplish the following as I move forward:
 
-- Add a section with my Italian writings;
+- Add a page or section with my Italian writings and blog;
 - Implement the 'About' page: 
   - add interactive information to make my personality more appealing to viewers. E.g. what I am reading at the moment, boardgames I've been playing, podcasts I am listening to, etc.
 
