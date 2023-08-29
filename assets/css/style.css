@@ -74,7 +74,6 @@ h1 {
 #sub-title {
     text-transform: lowercase;
     font-weight: 200;
-    word-wrap: break-word;
     color: inherit;
 }
 
