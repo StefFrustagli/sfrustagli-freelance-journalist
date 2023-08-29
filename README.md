@@ -74,6 +74,7 @@ All pages have a **footer** that links to my social media accounts (Instagram, T
 
 The homepage features a **Hero image**.
 The hero image is an illustration I personally commissioned to artist Valeria Weerasinge.
+
 ![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
 
 It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
@@ -91,7 +92,10 @@ The 'About' page provides a glimpse into my study path and experience. By readin
 ![Contact page showing a short bio and a picture of myself](https://i.ibb.co/850mY3M/Screenshot-2023-08-28-at-20-14-26.png "Contact page")
 
 ## Contact page
-The 'Contact' page offers two options for contacting me: via email address or by filling in the form.
+The 'Contact' page contains an invitation to contact me either by email address or by filling out the form.
+
+![Invitation to contact me](https://i.ibb.co/Jmndrs1/Screenshot-2023-08-28-at-22-48-06.png)
+![Form in which it is needed to fill out the Name and Address fields to leave a message](https://i.ibb.co/pLbmZMX/Screenshot-2023-08-28-at-22-48-35.png "Form")
 
 
 ## Technologies used
