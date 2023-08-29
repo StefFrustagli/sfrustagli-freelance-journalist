@@ -81,8 +81,7 @@ It is a cartoon illustration of me with elements that describe what I normally d
 
 The main purpose of this image is to grab attention with its size, colour, and distinctiveness. I wanted it to be appealing and unique since it is the first thing the user sees when arriving at the website.
 
-##### Selected writings
-Some of my articles are listed in the Selected writings section on the homepage. They are listed in chronological order (the most recent at the top) and a small preview is displayed to catch the eye. At the end of the preview, there is a clickable ">>" in green that changes color if hovered over. Each link opens in a new tab.
+Some of my articles are listed in the **Selected writings** section on the homepage. They are listed in chronological order (the most recent at the top) and a small preview is displayed to catch the eye. At the end of the preview, there is a clickable ">>" in green that changes color if hovered over. Each link opens in a new tab.
 
 ![Selected wrirings](https://i.ibb.co/p24XWzS/Screenshot-2023-08-28-at-17-06-05.png "List of articles")
 
@@ -91,12 +90,18 @@ The 'About' page provides a glimpse into my study path and experience. By readin
 
 ![Contact page showing a short bio and a picture of myself](https://i.ibb.co/850mY3M/Screenshot-2023-08-28-at-20-14-26.png "Contact page")
 
-## Contact page
+#### Contact page
 The 'Contact' page contains an invitation to contact me either by email address or by filling out the form.
 
 ![Invitation to contact me](https://i.ibb.co/Jmndrs1/Screenshot-2023-08-28-at-22-48-06.png)
 ![Form in which it is needed to fill out the Name and Address fields to leave a message](https://i.ibb.co/pLbmZMX/Screenshot-2023-08-28-at-22-48-35.png "Form")
 
+### Features and general aspects left to implement
+Due to the short deadline and my limited knowledge, my focus was creating a functional and essential website. However, I hope to accomplish the following as I move forward:
+
+- Add a section with my Italian writings;
+- Implement the 'About' page: 
+  - add interactive information to make my personality more appealing to viewers. E.g. what I am reading at the moment, boardgames I've been playing, podcasts I am listening to, etc.
 
 ## Technologies used
 Programming languages used in this project are HTML and CSS.
