@@ -106,6 +106,8 @@ Due to the short deadline and my limited knowledge, my focus was creating a func
 ## Technologies used
 Programming languages used in this project are HTML and CSS.
 
+## Testing
+Testing information can be found in [TESTING.md file](TESTING.md).
 
 ## Deployment
 This project was developed using Codeanywhere, committed to git and pushed to GitHub.
