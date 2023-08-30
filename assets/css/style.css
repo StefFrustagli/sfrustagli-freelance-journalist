@@ -122,14 +122,16 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    
 }
 
 #nav-toggle {
-    display: none;
+    display: none; 
 }
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #ffffff;
 }
 
 /* Main content */
@@ -185,7 +187,7 @@ main {
     font-weight: 300;
     color: #575855;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    margin-bottom: -0.5rem;
 }
 
 /* Mouse over link */
@@ -200,8 +202,8 @@ a:hover {
     /* content is centered and fits in all devices */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 840px;
-    margin-bottom: 100px;
+    margin-top: 52.5rem;
+    margin-bottom: 6.25rem;
 }
 
 #writings h3 {
@@ -210,8 +212,9 @@ a:hover {
 }
 
 #writings div {
-    line-height: 20px;
-    margin-bottom: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 2.25rem;
+    margin-top: 2.25rem;
 }
 
 #writings p {
@@ -456,7 +459,7 @@ textarea {
     /* Selected writings section */
     #writings {
         line-height: 1.8;
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     /* About section */
