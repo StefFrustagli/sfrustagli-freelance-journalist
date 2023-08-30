@@ -13,7 +13,7 @@ The [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institut
 
 ![Error message: Element div not allowed as child of element h1 in this context.](https://i.ibb.co/YTKjN3t/Screenshot-2023-08-29-at-19-28-35.png)
 
-How it was fixed: I replaced div with span.
+How it was fixed: I replaced `div` with `span`.
 
 - Warnings:
 
@@ -79,3 +79,14 @@ If all fields are filled out, the form works. It is addressed to Code Institute:
 When the form has been submitted correctly, a "Congratulations" message appears.
 
 If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a required attribute to the textarea as well. I've tested it and it works as expected.
+
+## Lighthouse test
+
+I performed this test using Chrome Dev tools in an incognito window (as Chrome extensions negatively affected the page's load performance).
+
+The result, with a mobile setup, was:
+![Test result: 88 Performance, 96 Accessibility, 100 Best Practices, 100 SEO](https://i.ibb.co/XLMpCgN/Screenshot-2023-08-30-at-19-48-52.png)
+
+The result, with a desktop setup, was:
+![Test result: 99 Performance, 96 Accessibility, 100 Best Practices, 100 SEO](https://i.ibb.co/T1B6sCz/Screenshot-2023-08-30-at-19-45-38.png)
+
