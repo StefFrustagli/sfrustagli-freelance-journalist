@@ -1,173 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines -->
-    <meta
-      name="description"
-      content="Stefania Frustagli, freelance journalist. Selected writings, about and contact."
-    />
-    <meta
-      name="keywords"
-      content="Stefania Frustagli, Frustagli, journalist, freelancer, freelance journalist, Italian freelancer, Italian journalist, journalism, portfolio, articles, writing, blog"
-    />
+    <meta name="description"
+        content="Stefania Frustagli, freelance journalist. Selected writings, about and contact." />
+    <meta name="keywords"
+        content="Stefania Frustagli, Frustagli, journalist, freelancer, freelance journalist, Italian freelancer, Italian journalist, journalism, portfolio, articles, writing, blog" />
 
     <!-- Title -->
     <title>Stefania Frustagli, freelance journalist</title>
 
     <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Header -->
     <header>
-      <div id="header-wrapper">
-        <a href="index.html">
-          <h1 id="logo">
-            Stefania Frustagli,<br>
-            <span id="sub-title">freelance journalist</span>
-          </h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-        <label for="nav-toggle" class="nav-toggle-label"
-          ><i class="fa-solid fa-bars" style="color: #ffffff"></i
-        ></label>
+        <div id="header-wrapper">
+            <a href="index.html">
+                <h1 id="logo">
+                    Stefania Frustagli,<br>
+                    <span id="sub-title">freelance journalist</span>
+                </h1>
+            </a>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"
+                    style="color: #ffffff"></i></label>
 
-        <!-- Nav bar items -->
-        <nav>
-          <ul id="menu">
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="contact.html" class="active">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+            <!-- Nav bar items -->
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Main content -->
     <main>
-      <section id="contact">
-        <div id="contact-text">
-          <h2 class="hidden-heading">Contact</h2>
-          <h2>Let's create something beautiful!</h2>
-          <br />
-          <p>
-            I would be happy to work with you on a commission or a collaborative
-            project. <br />
-            You can contact me via the form below or by email at:
-          </p>
-          <br />
-          <span> stefania.frustagli@outlook.it </span>
-        </div>
-        <br />
-        <!-- Contact form -->
-        <form
-          id="contact-form"
-          method="post"
-          action="https://formdump.codeinstitute.net/"
-        >
-          <div>
-            <label for="full_name">Full name: <br /> </label>
-            <input
-              type="text"
-              name="full_name"
-              id="full_name"
-              class="text-input"
-              required
-            />
-          </div>
-          <div>
-            <label for="email_address">Email address: <br /></label>
-            <input
-              type="email"
-              name="email_address"
-              id="email_address"
-              class="text-input"
-              required
-            />
-          </div>
-          <br />
-          <div>
-            <label for="textarea"></label>
-            <textarea
-              id="textarea"
-              name="textarea"
-              class="text-input"
-              placeholder="Leave a message here"
-              required
-            ></textarea>
-          </div>
-          <div><input type="submit" value="Send" id="submit-message"/></div>
-        </form>
-      </section>
+        <section id="contact">
+            <div id="contact-text">
+                <h2 class="hidden-heading">Contact</h2>
+                <h2>Let's create something beautiful!</h2>
+                <br />
+                <p>
+                    I would be happy to work with you on a commission or a collaborative
+                    project. <br />
+                    You can contact me via the form below or by email at:
+                </p>
+                <br />
+                <span> stefania.frustagli@outlook.it </span>
+            </div>
+            <br />
+            <!-- Contact form -->
+            <form id="contact-form" method="post" action="https://formdump.codeinstitute.net/">
+                <div>
+                    <label for="full_name">Full name: <br /> </label>
+                    <input type="text" name="full_name" id="full_name" class="text-input" required />
+                </div>
+                <div>
+                    <label for="email_address">Email address: <br /></label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required />
+                </div>
+                <br />
+                <div>
+                    <label for="textarea"></label>
+                    <textarea id="textarea" name="textarea" class="text-input" placeholder="Leave a message here"
+                        required></textarea>
+                </div>
+                <div><input type="submit" value="Send" id="submit-message" /></div>
+            </form>
+        </section>
     </main>
 
     <!-- Footer-->
     <footer>
-      <section id="footer-section">
-        <h2 class="hidden-heading">Social networks</h2>
-        <ul id="social-networks">
-          <li>
-            <a
-              href="https://www.instagram.com/ambarabam/?hl=en"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit my Instagram page (opens in a new tab)"
-              ><i class="fa-brands fa-square-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/stefaniafru"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit my Twitter/X page (opens in a new tab)"
-              ><i class="fa-brands fa-square-x-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/stefania-frustagli-19828b156/"
-              target="_blank"
-              rel="noopener"
-              aria-label="Visit my LinkedIn page (opens in a new tab)"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-        </ul>
-      </section>
+        <section id="footer-section">
+            <h2 class="hidden-heading">Social networks</h2>
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.instagram.com/ambarabam/?hl=en" target="_blank" rel="noopener"
+                        aria-label="Visit my Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/stefaniafru" target="_blank" rel="noopener"
+                        aria-label="Visit my Twitter/X page (opens in a new tab)"><i
+                            class="fa-brands fa-square-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/stefania-frustagli-19828b156/" target="_blank" rel="noopener"
+                        aria-label="Visit my LinkedIn page (opens in a new tab)"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </section>
     </footer>
 
     <!-- Font Awesome kit (placed at the bottom of the HTML file to speed up the loading time)-->
-    <script
-      src="https://kit.fontawesome.com/c752518e32.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://kit.fontawesome.com/c752518e32.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

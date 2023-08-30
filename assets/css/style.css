@@ -47,12 +47,10 @@ header {
     width: 100%;
     left: 0;
     top: 0;
-
     /* Checkbox in the top right corner */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
     /* Box-shadow to make the header stand out */
     box-shadow: 0 2px 2px lightgrey;
 }
@@ -166,7 +164,6 @@ main {
 }
 
 /* Selected writings section */
-
 .article-link {
     text-decoration: none;
     color: #048363;
@@ -273,14 +270,12 @@ strong {
 
 #about>h2 {
     color: #8f8c8d;
-   font-weight: 300;
+    font-weight: 300;
 }
 
 /* Contact page */
-
 .text-input {
     width: 80%;
-
 }
 
 #contact {
@@ -315,7 +310,6 @@ span {
 }
 
 /* Textarea */
-
 input,
 textarea {
     font-size: 1.1rem;
@@ -336,7 +330,6 @@ textarea {
 }
 
 /* Footer */
-
 #footer-section {
     background-color: #048363;
     position: fixed;
@@ -382,7 +375,6 @@ textarea {
         height: 600px;
     }
 }
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -430,7 +422,6 @@ textarea {
     }
 
     /* Form */
-
     .text-input {
         margin: 5px;
     }
