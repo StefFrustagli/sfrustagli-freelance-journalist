@@ -1,7 +1,10 @@
-# TESTING
+# Stefania Frustagli, Freelance Journalist Portfolio - Testing details
+
+[Main README.md file](/README.md) <br>
+[View the website in GitHub Pages](https://github.com/StefFrustagli/sfrustagli-freelance-journalist.git)
+
 
 ## Validator Testing
-
 ### HTML
 
 The [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) returned an error, some warnings and info messages that were promptly corrected.
@@ -38,12 +41,12 @@ After the fix, the result was as follows:
 
 ### CSS
 
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
 
 
-### Manual testing
+## Manual testing
 
-#### Logo
+#### Logo 
 The logo allows you to return to the homepage when clicked, and it works on all pages.
 
 #### Navbar
@@ -72,7 +75,7 @@ I have verified that the round image and the text look right on all devices by r
 
 **Form**
 
-If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/>
+If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/> <br>
 When the form has been submitted correctly, a "Congratulations" message appears.
 
-If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a required attribute the textarea as well. I've tested it and it works as expected.
+If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a required attribute to the textarea as well. I've tested it and it works as expected.
