@@ -47,46 +47,63 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 ## Manual testing
 
 #### Logo 
-The logo allows you to return to the homepage when clicked, and it works on all pages.
+- The logo allows you to return to the homepage when clicked, and it works on all pages.
 
 #### Navbar
-On tablets and larger screens, the navbar shows an 'About' and 'Contact' menu on all pages. It was tested and both links worked correctly.
+- On tablets and larger screens, the navbar shows an 'About' and 'Contact' menu on all pages. It was tested and both links worked correctly.
 
-Mobile devices can access the "About" and "Contact" pages using the Burger Bar instead. It was tested and worked correctly.
+- Mobile devices can access the "About" and "Contact" pages using the Burger icon instead. It was tested and worked correctly.
 
-On desktops and larger screens, hovering over a navbar element should underline and colour the text. It was tested and worked correctly.
+- On desktops and larger screens, hovering over a navbar element should underline and colour the text. It was tested and worked correctly.
 
 #### Footer
 
-In the footer, social media profiles are accessible by clicking on the icons. All HTML pages have the same footer code. They have been tested and work.
+- In the footer, social media profiles are accessible by clicking on the icons. All HTML pages have the same footer code. They have been tested and work.
 
 #### Hero image
 
-The hero image behaves as expected on all device widths.
+- The hero image behaves as expected on all device widths.
 
-Homepage page with selected writings
-External links in all articles work properly. When a link is clicked, a new tab is opened.
+### Homepage 
+- External links in all articles work properly. When a link is clicked, a new tab is opened as expected.
 
 #### About page
-
-I have verified that the round image and the text look right on all devices by reducing and expanding the window width.
+- I have verified that the round image and the text look right on all devices by reducing and expanding the window width and texting it on different devices.
 
 #### Contact page
-
 **Form**
-
-If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/> <br>
+- If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/> <br>
 When the form has been submitted correctly, a "Congratulations" message appears.
-
-If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a required attribute to the textarea as well. I've tested it and it works as expected.
+- If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a `required` attribute to the `textarea` as well. I've tested it and it works as expected.
 
 ## Lighthouse test
 
 I performed this test using Chrome Dev tools in an incognito window (as Chrome extensions negatively affected the page's load performance).
 
-The result, with a mobile setup, was:
+The result, with a mobile setup, was the following:
+- Performance: 88
+- Accessibility: 96
+- Best practises: 100
+- SEO: 100
+
 ![Test result: 88 Performance, 96 Accessibility, 100 Best Practices, 100 SEO](https://i.ibb.co/XLMpCgN/Screenshot-2023-08-30-at-19-48-52.png)
 
-The result, with a desktop setup, was:
+The result, with a desktop setup, wes the following:
+- Performance: 99
+- Accessibility: 96
+- Best practises: 100
+- SEO: 100
+  
 ![Test result: 99 Performance, 96 Accessibility, 100 Best Practices, 100 SEO](https://i.ibb.co/T1B6sCz/Screenshot-2023-08-30-at-19-45-38.png)
 
+* Bugs resolved and improvements
+
+As far as I could tell, there weren't any significant bugs. The minor changes I've made were intended to improve the website's aesthetics, readability and responsiveness. For examples:
+- I've decided to add a media query for small devices to improve the hero image's output on mobile phones.
+- As a result of my mentor's guidance, I was able to make the website responsive on a 5k screen (e.g. 5K iMac Pro):
+     - I gave the `body` a `max-width: 2000px` and center it in the document using the `margin-left` and `margin-right` to auto. 
+     - I gave the `header` and  `left:0`, `top:0` and `width: 100%`;
+     - I created a contained inside `header` and moved everything inside that container;
+     - To make the hero image go edge to edge, I moved it to its own `div` called `hero` inside the section.
+     - I gave the section the same background color as the `header`, set `postition: absolute`, `left:0`, `top` as the height of the header and `width: 100%`;
+     - I set `postition: relative` on `<html>`. 

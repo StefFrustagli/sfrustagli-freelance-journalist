@@ -7,9 +7,11 @@ The website features a homepage with selected writings, an about page and a cont
 [View the live project here](https://steffrustagli.github.io/sfrustagli-freelance-journalist/)
 <details><summary>Mockup of the website</summary>
 
-  <p align="center"><img src="https://i.ibb.co/xmNQVc2/Screenshot-2023-08-31-at-16-16-32.png" alt="Mockup of the website"/></p>
+  <p align="center"><img src="https://i.ibb.co/xmNQVc2/Screenshot-2023-08-31-at-16-16-32.png" alt="Mockup of the website"/></br></p>
+  
 
   </details>
+  
 
 
 ## Table of Contents
@@ -164,6 +166,8 @@ The live link can be found here: https://steffrustagli.github.io/sfrustagli-free
 * The "About" page photograph belongs to Stefania Frustagli.
 
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+* The mockup of the website was generated with [Am I Responsive?](http://ami.responsivedesign.is)
 
 ### Code
 As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. I would like to thank my mentor Brian Macharia for helping me with coding responsiveness for larger screens.
