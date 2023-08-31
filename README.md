@@ -29,7 +29,7 @@ The website features a homepage with selected writings, an about page and a cont
 
 My intention was to design a simple and minimalistic website, with essential information easily accessible.
 
-The primary goal was to provide a showcase of my work to editors. Considering their busy schedules, I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette to make the page visually appealing.
+The primary goal was to provide a showcase of my work to editors. Considering their busy schedules, I wanted my work to be immediately accessible, so I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette (most notably, a vibrant emerald green) to make the page visually appealing.
 
 ### Website's goals
 
@@ -37,6 +37,16 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 - Outline my intentions as journalist;
 - Mention my experience and qualifications;
 - Provide email address and social network accounts for easy contact.
+
+### I can achieve my goal most effectively through this website because
+
+- It groups and shows my work in one page;
+
+- It's essential and easy to navigate;
+
+- It lists my contact information and social media accounts;
+  
+- It features a distinctive llustration to attract viewers' attention.
 
 ### Ideal viewers
 
@@ -49,16 +59,6 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 - As a publication commissioning editor, I expect to gain an overview of Stefania's writing style and the publications she has contributed to. She has pitched me an article idea, and I have to decide whether to accept it and commission a piece.
 - As a freelance journalist myself, I'm interested in reading more about some of the other journalists' activities.
 - As a reader, I'm interested in Stefania's articles and keen to learn more about her writing activity.
-
-### I can achieve my goal most effectively through this website because:
-
-- It groups and shows my work in one page;
-
-- It's essential and easy to navigate;
-
-- It lists my contact information and social media accounts;
-  
-- It features a distinctive llustration to attract viewers' attention.
 
 ## Design
 
