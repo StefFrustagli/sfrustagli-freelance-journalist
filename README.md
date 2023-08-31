@@ -4,42 +4,61 @@ This is a portfolio website for my work as a freelance journalist.
 
 The website features a homepage with selected writings, an about page and a contact page. The website is primarily intended to attract potential editors who may be interested in collaborating with me and commission pieces of work.
 
-The website's goals are:
+[View the live project here](https://steffrustagli.github.io/sfrustagli-freelance-journalist/)
+<details><summary>Mockup of the website</summary>
+
+  <p align="center"><img src="https://i.ibb.co/xmNQVc2/Screenshot-2023-08-31-at-16-16-32.png" alt="Mockup of the website"/></p>
+
+  </details>
+
+
+## Table of Contents
+
+- [User Experience (UX)](#user-experience)
+- [Design](#design)
+- [Features](#features)
+- [Tecnologies used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
+
+## User Experience
+
+### Strategy & Scope
+
+My intention was to design a simple and minimalistic website, with essential information easily accessible.
+
+The primary goal was to provide a showcase of my work to editors. Considering their busy schedules, I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette to make the page visually appealing.
+
+### Website's goals
 
 - Provide selected examples of my articles and writing styles;
 - Outline my intentions as journalist;
 - Mention my experience and qualifications;
-- Provide email addresses and social network accounts for easy contact.
-
-## UX
+- Provide email address and social network accounts for easy contact.
 
 ### Ideal viewers
 
 - The main target audience is editors to whom I send article ideas and seek collaboration;
 - Journalists or general readers who wish to acknowledge my work or are interested in the topics I cover;
 - English speaking, since all articles selected are in English.
-
+  
 ### User stories
 
 - As a publication commissioning editor, I expect to gain an overview of Stefania's writing style and the publications she has contributed to. She has pitched me an article idea, and I have to decide whether to accept it and commission a piece.
 - As a freelance journalist myself, I'm interested in reading more about some of the other journalists' activities.
 - As a reader, I'm interested in Stefania's articles and keen to learn more about her writing activity.
 
-## Strategy & Scope
-
-My intention was to design a simple and minimalistic website, with essential information easily accessible.
-
-The primary goal was to provide a showcase of my work to editors. Considering their busy schedules, I made the 'Selected writings' section the site homepage. Also, to attract visitors' attention, I wanted the hero image to be the largest part of the page. I added a few lines from my articles as a teaser, and used a bright colour palette to make the page visually appealing.
-
 ### I can achieve my goal most effectively through this website because:
 
-* It groups and shows my work in one page;
+- It groups and shows my work in one page;
 
-* It's essential and easy to navigate;
+- It's essential and easy to navigate;
 
-* It lists my contact information and social media accounts;
+- It lists my contact information and social media accounts;
   
-* It features a distinctive llustration to attract viewers' attention.
+- It features a distinctive llustration to attract viewers' attention.
 
 ## Design
 
@@ -48,6 +67,21 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 ![Colour palette](https://i.ibb.co/GnDPVh0/Colour-palette.png "Colour palette")
 
 The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
+
+### Hero image
+The hero image is an illustration I personally commissioned to artist Valeria Weerasinge.
+
+![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
+
+It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
+
+The main purpose of this image is to grab attention with its size, colour, and distinctiveness. I wanted it to be appealing and unique since it is the first thing the user sees when arriving at the website.
+
+### Typography
+
+The entire website uses the "Raleway" font, with Sans Serif serving as the fallback font in case the font isn't imported properly.
+
+The font was imported into style.css using Google fonts.
 
 ### Favicon
 The favicon was created using [Favicon Generator](https://favicon.io/favicon-generator/).
@@ -72,16 +106,9 @@ All pages have a **footer** that links to my social media accounts (Instagram, T
 
 #### Homepage
 
-The homepage features a **Hero image**.
-The hero image is an illustration I personally commissioned to artist Valeria Weerasinge.
+On the homepage, the **Hero image** serves the purpose of making the site distinctive and grabbing the attention of visitors.
 
-![Illustration by author Valeria Weerasinghe showing a girl peacefully working on her laptop surrounded by newspapers, a coffee machine and an espresso cup](https://i.ibb.co/DDjPnMs/hero-image.webp "Illustration by Valeria Weerasinghe")
-
-It is a cartoon illustration of me with elements that describe what I normally do: I am at my laptop, working, with my airPods on (probably listening to a podcast or some chill music). I am surrounded by a coffee machine, a small espresso cup (which reflects my Italian identity) and newspapers.
-
-The main purpose of this image is to grab attention with its size, colour, and distinctiveness. I wanted it to be appealing and unique since it is the first thing the user sees when arriving at the website.
-
-Some of my articles are listed in the **Selected writings** section on the homepage. They are listed in chronological order (the most recent at the top) and a small preview is displayed to catch the eye. At the end of the preview, there is a clickable ">>" in green that changes color if hovered over. Each link opens in a new tab.
+My articles are listed in the **Selected writings** section on the homepage. They are listed in chronological order (the most recent at the top) and a small preview is displayed to catch the eye. At the end of the preview, there is a clickable ">>" in green that changes color if hovered over. Each link opens in a new tab.
 
 ![Selected wrirings](https://i.ibb.co/p24XWzS/Screenshot-2023-08-28-at-17-06-05.png "List of articles")
 
@@ -139,7 +166,7 @@ The live link can be found here: https://steffrustagli.github.io/sfrustagli-free
 * The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Code
-As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. For helping me code larger screen responsiveness, I would like to thank my mentor Brian Macharia.
+As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. I would like to thank my mentor Brian Macharia for helping me with coding responsiveness for larger screens.
 
 ### Acknowledgment
 For their continuous support, suggestions and feedback, I am very grateful to my mentor Brian Macharia, the Code Institute tutors, and my fellow classmates on Slack.
