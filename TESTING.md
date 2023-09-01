@@ -85,10 +85,12 @@ The result, with a mobile setup, was the following:
 - Accessibility: 96
 - Best practises: 100
 - SEO: 100
+  
+Since the hero image is already in a *webp* format, I've decided not to make any further changes for the time being.
 
 ![Test result: 88 Performance, 96 Accessibility, 100 Best Practices, 100 SEO](https://i.ibb.co/XLMpCgN/Screenshot-2023-08-30-at-19-48-52.png)
 
-The result, with a desktop setup, wes the following:
+The result, with a desktop setup, was the following:
 - Performance: 99
 - Accessibility: 96
 - Best practises: 100
@@ -96,14 +98,17 @@ The result, with a desktop setup, wes the following:
   
 ![Test result: 99 Performance, 96 Accessibility, 100 Best Practices, 100 SEO](https://i.ibb.co/T1B6sCz/Screenshot-2023-08-30-at-19-45-38.png)
 
-* Bugs resolved and improvements
+## Bugs resolved
 
 As far as I could tell, there weren't any significant bugs. The minor changes I've made were intended to improve the website's aesthetics, readability and responsiveness. For examples:
 - I've decided to add a media query for small devices to improve the hero image's output on mobile phones.
-- As a result of my mentor's guidance, I was able to make the website responsive on a 5k screen (e.g. 5K iMac Pro):
+- Thanks to my mentor's guidance, I was able to make the website responsive on a 5k screen (e.g. 5K iMac Pro):
      - I gave the `body` a `max-width: 2000px` and center it in the document using the `margin-left` and `margin-right` to auto. 
      - I gave the `header` and  `left:0`, `top:0` and `width: 100%`;
      - I created a contained inside `header` and moved everything inside that container;
      - To make the hero image go edge to edge, I moved it to its own `div` called `hero` inside the section.
      - I gave the section the same background color as the `header`, set `postition: absolute`, `left:0`, `top` as the height of the header and `width: 100%`;
-     - I set `postition: relative` on `<html>`. 
+     - I set `postition: relative` on `<html>`.
+  
+## Future improvements
+- Performance on mobile devices is something I would like to improve going forward.

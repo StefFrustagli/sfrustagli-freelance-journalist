@@ -64,11 +64,23 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 
 ## Design
 
+### Wireframes
+Below are the wireframes I created during the design process (whose aspect and colour slightly differ from the final product):
+<details> <summary>Wireframes</summary>
+<p align="center">
+<img src="https://i.ibb.co/ygWd0Vq/Screenshot-2023-08-31-at-23-04-10.png" alt="Wireframe for the Homepage"/>
+</br>
+<img src="https://i.ibb.co/b3ZdkmB/Screenshot-2023-08-31-at-23-04-35.png" alt="Wireframe for the About page"/>
+<br/>
+<img src="https://i.ibb.co/vYMp15K/Screenshot-2023-08-31-at-23-04-56.png" alt="Wireframe for the Contact page"/>
+<br/>
+</p>
+</details>
+
 ### Palette
+The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
 
 ![Colour palette](https://i.ibb.co/GnDPVh0/Colour-palette.png "Colour palette")
-
-The colour palette was generated from the hero image using [Color Palette Extractor](https://mdigi.tools/color-extractor/).
 
 ### Hero image
 The hero image is an illustration I personally commissioned to artist Valeria Weerasinge.
