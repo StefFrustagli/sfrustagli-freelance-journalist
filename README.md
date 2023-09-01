@@ -17,7 +17,6 @@ The website features a homepage with selected writings, an about page and a cont
 ## Table of Contents
 
 - [User Experience (UX)](#user-experience)
-- [Design](#design)
 - [Features](#features)
 - [Tecnologies used](#technologies-used)
 - [Testing](#testing)
@@ -27,7 +26,7 @@ The website features a homepage with selected writings, an about page and a cont
 
 ## User Experience
 
-### Strategy & Scope
+### Design
 
 My intention was to design a simple and minimalistic website, with essential information easily accessible.
 
@@ -43,16 +42,13 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 ### I can achieve my goal most effectively through this website because
 
 - It groups and shows my work in one page;
-
 - It's essential and easy to navigate;
-
 - It lists my contact information and social media accounts;
-  
 - It features a distinctive llustration to attract viewers' attention.
 
 ### Ideal viewers
 
-- The main target audience is editors to whom I send article ideas and seek collaboration;
+- Editors, my primary target audience, to whom I send article ideas and seek collaboration;
 - Journalists or general readers who wish to acknowledge my work or are interested in the topics I cover;
 - English speaking, since all articles selected are in English.
   
@@ -61,8 +57,6 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 - As a publication commissioning editor, I expect to gain an overview of Stefania's writing style and the publications she has contributed to. She has pitched me an article idea, and I have to decide whether to accept it and commission a piece.
 - As a freelance journalist myself, I'm interested in reading more about some of the other journalists' activities.
 - As a reader, I'm interested in Stefania's articles and keen to learn more about her writing activity.
-
-## Structure & Skeleton & Surface
 
 ### Wireframes
 Below are the wireframes I created during the design process (whose aspect and colour slightly differ from the final product):
@@ -94,7 +88,6 @@ The main purpose of this image is to grab attention with its size, colour, and d
 ### Typography
 
 The entire website uses the "Raleway" font, with Sans Serif serving as the fallback font in case the font isn't imported properly.
-
 The font was imported into style.css using Google fonts.
 
 ### Favicon
@@ -108,13 +101,13 @@ Below is the favicon as it appears in the tab:
 ## Features
 
 ### Existing Features
-On each page, there is a header with a responsive **navigation bar** that includes my name as the logo (top left) that links to the homepage, and links to the 'About' and 'Contact' pages (top right).
+On each page, there is a header with a responsive **navigation bar** that includes my name as the logo (top left) that redirects to the homepage, and a menu showing 'About' and 'Contact' that links to the respective pages (top right).
 
-A link to 'Selected writings' was also intended, but it was removed after my mentor's suggestion, mainly for aesthetic and functional reasons. It might be re-added in the future if I feel it makes the navigation bar more intuitive. As for now, I think viewers - editors in particular - will find their way around the website easily as the navbar is intuitive and simple to use.
+A link to 'Selected writings' was also intended in the menu, but it was removed after my mentor's suggestion, mainly for aesthetic and functional reasons. It might be re-added in the future if I feel it makes the navigation bar more intuitive. As for now, I think viewers - editors in particular - will find their way around the website easily, as the navbar is intuitive and simple to use.
 
 ![Header and navbar](https://i.ibb.co/crHK2fX/Screenshot-2023-08-28-at-16-38-32.png "Header and navbar")
 
-All pages have a **footer** that links to my social media accounts (Instagram, Twitter/X and LinkedIn). Intuitive and immediate, it is ideal for editors and readers to quickly find me.
+All pages have a **footer** that links to my social media accounts (Instagram, Twitter/X and LinkedIn). Intuitive and immediate, it is ideal for editors and readers to quickly find a way to get in touch with me.
 
 ![Footer showing links to my social media accounts: Instagram, Twitter/X and LinkedIn](https://i.ibb.co/z6zdnQT/Screenshot-2023-08-28-at-19-41-47.png "Footer showing links to my social media accounts: Instagram, Twitter/X and LinkedIn")
 
@@ -137,14 +130,15 @@ The 'Contact' page contains an invitation to contact me either by email address 
 ![Invitation to contact me](https://i.ibb.co/Jmndrs1/Screenshot-2023-08-28-at-22-48-06.png)
 ![Form in which it is needed to fill out the Name and Address fields to leave a message](https://i.ibb.co/pLbmZMX/Screenshot-2023-08-28-at-22-48-35.png "Form")
 
+<br>
+
 ### Features and general aspects left to implement
 Due to the short deadline and my limited knowledge, my focus was creating a functional and essential website. However, I hope to accomplish the following as I move forward:
-
 - Add a page or section with my Italian writings and blog;
 - Implement the 'About' page: 
-  - add interactive information to make my personality more appealing to viewers. E.g. what I am reading at the moment, boardgames I've been playing, podcasts I am listening to, etc.
+  - add interactive information to make my personality more appealing to viewers and show my interests (that could be the basis of an article idea to pitch). E.g. what I am reading at the moment, boardgames I've been playing, podcasts I am listening to, etc.
 
-### Technologies used
+## Technologies used
 ### Languages
 - Programming languages used in this project are **HTML5** and **CSS3**.
 ### Frameworks, Programs & Libraries
@@ -196,7 +190,7 @@ It should be noted that all changes pushed to the main branch are automatically 
 
 * The hero image illustration was created by artist [Valeria Weerasinghe](https://www.valeriaweerasinghe.com/) and commissioned by me. Please do not reproduce without any expressed written consent.
 
-* The "About" page photograph belongs to Stefania Frustagli.
+- The "About" page photograph belongs to Stefania Frustagli. Please do not reproduce without any expressed written consent.
 
 ### Code
 As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. My mentor Brian Macharia deserves my gratitude for his constant suggestions to improve my code.

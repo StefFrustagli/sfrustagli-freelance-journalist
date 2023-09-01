@@ -1,6 +1,6 @@
 # Stefania Frustagli, Freelance Journalist Portfolio - Testing details
 
-[Main README.md file](/README.md) <br>
+[Main README.md file](README.md) <br>
 [View the website in GitHub Pages](https://github.com/StefFrustagli/sfrustagli-freelance-journalist.git)
 
 
@@ -13,7 +13,7 @@ The [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institut
 
 ![Error message: Element div not allowed as child of element h1 in this context.](https://i.ibb.co/YTKjN3t/Screenshot-2023-08-29-at-19-28-35.png)
 
-How it was fixed: I replaced `div` with `span`.
+**How it was fixed**: I replaced `div` with `span`.
 
 - Warnings:
 
@@ -22,11 +22,11 @@ How it was fixed: I replaced `div` with `span`.
 
 ![Warning: Section lacks heading](https://i.ibb.co/vkPqgq4/Screenshot-2023-08-29-at-19-29-59.png)
 
-How it was fixed: I added hidden headings.
+**How it was fixed**: I added hidden headings.
 
 ![Warning: Consider using the h1 element as a top-level heading only](https://i.ibb.co/KbyJsZy/Screenshot-2023-08-29-at-19-45-12.png)
 
-How it was fixed: I replaced h1 with h2.
+**How it was fixed**: I replaced h1 with h2.
 
 - Info:
 
@@ -41,7 +41,7 @@ After the fix, the result was as follows:
 
 ### CSS
 
-No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator.html.en).
 
 
 ## Manual testing
@@ -70,9 +70,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 Below are the browsers that have been tested:
 
 - Chrome Version 116.0.5845.140
-
 - Firefox Version 117.0
-
 - Safari Version 16.6
 
 ## Responsiveness
@@ -106,11 +104,11 @@ As far as I could tell, there weren't any significant bugs. The minor changes I'
 - I've decided to add a media query for small devices to improve the hero image's output on mobile phones.
 - Thanks to my mentor's guidance, I was able to make the website responsive on a 5k screen (e.g. 5K iMac Pro):
      - I gave the `body` a `max-width: 2000px` and center it in the document using the `margin-left` and `margin-right` to auto. 
-     - I gave the `header` and  `left:0`, `top:0` and `width: 100%`;
+     - I gave the `header` and  `left:0`, `top:0` and `width:100%`;
      - I created a contained inside `header` and moved everything inside that container;
      - To make the hero image go edge to edge, I moved it to its own `div` called `hero` inside the section.
-     - I gave the section the same background color as the `header`, set `postition: absolute`, `left:0`, `top` as the height of the header and `width: 100%`;
-     - I set `postition: relative` on `<html>`.
+     - I gave the section the same background color as the `header`, set `postition:absolute`, `left:0`, `top` as the height of the header and `width:100%`;
+     - I set `postition:relative` on `<html>`.
   
 ## Future improvements
 - Performance on mobile devices is something I would like to improve going forward.
