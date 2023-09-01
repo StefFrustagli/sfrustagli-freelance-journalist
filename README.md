@@ -62,7 +62,7 @@ The primary goal was to provide a showcase of my work to editors. Considering th
 - As a freelance journalist myself, I'm interested in reading more about some of the other journalists' activities.
 - As a reader, I'm interested in Stefania's articles and keen to learn more about her writing activity.
 
-## Design
+## Structure & Skeleton & Surface
 
 ### Wireframes
 Below are the wireframes I created during the design process (whose aspect and colour slightly differ from the final product):
@@ -148,8 +148,10 @@ Due to the short deadline and my limited knowledge, my focus was creating a func
 ### Languages
 - Programming languages used in this project are **HTML5** and **CSS3**.
 ### Frameworks, Programs & Libraries
+-   [GitHub Pages:](https://pages.github.com/) is where the site is hosted.
 -   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com/) was used as the repository for the project after being pushed from Git.
+-   [Codeanywhere](https://codeanywhere.com/) was used as online IDE.
 -   [Figma:](https://www.figma.com/) was used to create wireframes during the design process.
 -   [Google Fonts:](https://fonts.google.com/) was used to import fonts into the style.css.
 -   [Font Awesome:](https://fontawesome.com/) was used to add icons in the footer.
@@ -178,6 +180,15 @@ It was deployed directly from the master branch to GitHub Pages using the follow
 
 The live link can be found here: https://steffrustagli.github.io/sfrustagli-freelance-journalist/
 
+### How to run this project locally
+### Cloning
+You can clone this repository directly into your editor by pasting `git clone https://github.com/StefFrustagli/sfrustagli-freelance-journalist.git` into your terminal. To remove this GitHub repository, type `git remote rm origin` into the terminal.
+### Forking
+You can fork this project and make a copy of the original repository in your own GitHub account. In this case, you can view or make changes without affecting the original. To do so: 
+- log into GitHub and locate the GitHub Repository;
+- at the top right of the screen, click the Fork button.
+
+It should be noted that all changes pushed to the main branch are automatically reflected on the site.
 
 ## Credits
 ### Content

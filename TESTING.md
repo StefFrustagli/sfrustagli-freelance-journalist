@@ -76,6 +76,19 @@ No errors were found when passing through the official [(Jigsaw) validator](http
      When the form has been submitted correctly, a "Congratulations" message appears.
      - If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a `required` attribute to the `textarea` as well. I've tested it and it works as expected.
 
+## Browser Compatibility
+
+Below are the browsers that have been tested:
+
+- Chrome Version 116.0.5845.140
+
+- Firefox Version 117.0
+
+- Safari Version 16.6
+
+## Responsiveness
+I tested the website on a variety of screen sizes from iPhone 5 (320px wide) to a 5K iMac Pro (5120 x 2880 px) and it appears to be responsive on all of them.
+
 ## Lighthouse test
 
 I performed this test using Chrome Dev tools in an incognito window (as Chrome extensions negatively affected the page's load performance).
