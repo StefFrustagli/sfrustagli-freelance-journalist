@@ -71,10 +71,10 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 - I have verified that the round image and the text look right on all devices by reducing and expanding the window width and texting it on different devices.
 
 #### Contact page
-**Form**
-- If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/> <br>
-When the form has been submitted correctly, a "Congratulations" message appears.
-- If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a `required` attribute to the `textarea` as well. I've tested it and it works as expected.
+   - Form
+     - If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/> <br>
+     When the form has been submitted correctly, a "Congratulations" message appears.
+     - If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a `required` attribute to the `textarea` as well. I've tested it and it works as expected.
 
 ## Lighthouse test
 
