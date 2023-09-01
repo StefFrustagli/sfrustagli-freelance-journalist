@@ -46,35 +46,24 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ## Manual testing
 
-#### Logo 
-- The logo allows you to return to the homepage when clicked, and it works on all pages.
+| To be tested | Test Action                                                                                                           | Expected Outcome                                                                                                                                          | Test Outcome |
+|--------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| Logo         | Navigate to the header and click on the logo "Stefania Frustagli".                                                    | When clicked on the About and Contact pages, the logo should take you back to the homepage.                                                               | Pass         |
+| Navbar       | Navigate to the 'burger icon' ≡ (on devices) or 'Contact' and 'About' (on larger screens) in the header on the right. | All pages should have an 'About' and 'Contact' menu.                                                                                                      | Pass         |
+|              |                                                                                                                       | It should be possible to access the following pages through the navbar: About and Contact.                                                                | Pass         |
+|              |                                                                                                                       | The text should be underlined and colored when hovered over in the navbar on desktops and larger screens.                                                 | Pass         |
+| Footer       | Navigate to the footer at the bottom of the page.                                                                     | A footer with three social media icons should appear on all pages.                                                                                        | Pass         |
+|              |                                                                                                                       | By clicking on the icons, you should be able to access social media profiles in a new tab.                                                                | Pass         |
+| Hero image   | Navigate to the homepage. The hero image is located below the logo.                                                   | On all devices, it should be visible and responsive.                                                                                                      | Pass         |
+| Homepage     | Navigate to the homepage. A section called 'Selected writings' appears beneath the Hero image.                        | There is a link at the end of each article's preview that should lead to the full article on another website. It should be opened in a new tab.           | Pass         |
+| About page   | Navigate to the About page by clicking on the navbar menu.                                                            | The round image and the text should look responsive on all devices.                                                                                       | Pass         |
+| Contact page | Navigate to the Contact page by clicking on the navbar menu.                                                          | The text and form should look responsive on all devices.                                                                                                  | Pass         |
+| Form         | Navigate to the Contact page by clicking on the navbar menu.                                                          | The form should work if all fields are filled out.                                                                                                        | Pass         |
+|              |                                                                                                                       | A "Congratulations" message should appear after submitting the form correctly.  It is addressed to Code Institute: <https://formdump.codeinstitute.net/>  | Pass         |
+|              |                                                                                                                       | A "Fill out this field" message should appear if we fail to fill out the Full name field and submit the form.                                             | Pass         |
+|              |                                                                                                                       | An "Enter an email address" message should appear if we fail to fill out the Email address field and submit the form.                                     | Pass         |
+|              |                                                                                                                       | A 'Leave a message here' field should appear if we fail to fill out the Message field and submit the form.                                                | Pass         |
 
-#### Navbar
-- On tablets and larger screens, the navbar shows an 'About' and 'Contact' menu on all pages. It was tested and both links worked correctly.
-
-- Mobile devices can access the "About" and "Contact" pages using the Burger icon instead. It was tested and worked correctly.
-
-- On desktops and larger screens, hovering over a navbar element should underline and colour the text. It was tested and worked correctly.
-
-#### Footer
-
-- In the footer, social media profiles are accessible by clicking on the icons. All HTML pages have the same footer code. They have been tested and work.
-
-#### Hero image
-
-- The hero image behaves as expected on all device widths.
-
-### Homepage 
-- External links in all articles work properly. When a link is clicked, a new tab is opened as expected.
-
-#### About page
-- I have verified that the round image and the text look right on all devices by reducing and expanding the window width and texting it on different devices.
-
-#### Contact page
-   - Form
-     - If all fields are filled out, the form works. It is addressed to Code Institute: <https://formdump.codeinstitute.net/> <br>
-     When the form has been submitted correctly, a "Congratulations" message appears.
-     - If we fail to fill out the Full name or Email address fields, a "Fill out this field" or "Enter an email address" message appears. The 'Leave a message here' field was not required, so I added a `required` attribute to the `textarea` as well. I've tested it and it works as expected.
 
 ## Browser Compatibility
 
@@ -125,3 +114,4 @@ As far as I could tell, there weren't any significant bugs. The minor changes I'
   
 ## Future improvements
 - Performance on mobile devices is something I would like to improve going forward.
+  
