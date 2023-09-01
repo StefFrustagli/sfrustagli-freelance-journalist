@@ -144,8 +144,18 @@ Due to the short deadline and my limited knowledge, my focus was creating a func
 - Implement the 'About' page: 
   - add interactive information to make my personality more appealing to viewers. E.g. what I am reading at the moment, boardgames I've been playing, podcasts I am listening to, etc.
 
-## Technologies used
-Programming languages used in this project are HTML and CSS.
+### Technologies used
+### Languages
+- Programming languages used in this project are **HTML5** and **CSS3**.
+### Frameworks, Programs & Libraries
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) was used as the repository for the project after being pushed from Git.
+-   [Figma:](https://www.figma.com/) was used to create wireframes during the design process.
+-   [Google Fonts:](https://fonts.google.com/) was used to import fonts into the style.css.
+-   [Font Awesome:](https://fontawesome.com/) was used to add icons in the footer.
+-   [ImgBB:](https://imgbb.com/) was used to upload images and extract the source code.
+-   [Am I Responsive?](http://ami.responsivedesign.is) was used to generate the mockup of the website.
+
 
 ## Testing
 Testing information can be found in [TESTING.md file](TESTING.md).
@@ -177,12 +187,15 @@ The live link can be found here: https://steffrustagli.github.io/sfrustagli-free
 
 * The "About" page photograph belongs to Stefania Frustagli.
 
-* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-
-* The mockup of the website was generated with [Am I Responsive?](http://ami.responsivedesign.is)
-
 ### Code
-As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. I would like to thank my mentor Brian Macharia for helping me with coding responsiveness for larger screens.
+As this is my first time building a website, it has been a challenging experience. My initial steps were largely guided by Code Institute's Love Running walkthrough. My mentor Brian Macharia deserves my gratitude for his constant suggestions to improve my code.
 
 ### Acknowledgment
 For their continuous support, suggestions and feedback, I am very grateful to my mentor Brian Macharia, the Code Institute tutors, and my fellow classmates on Slack.
+
+Additionally, I would like to mention some of the README files and tutorials I looked at while creating my own: <br>
+- [AJGreaves](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+- [elainebroche-dev](https://github.com/elainebroche-dev/ms1-thrive/blob/master/README.md)
+- [kera-cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/README.md)
+- [Code-Institute-Solutions](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md)
+- [mittnamnkenny](https://github.com/mittnamnkenny/bonsai-page/blob/main/README.md)
